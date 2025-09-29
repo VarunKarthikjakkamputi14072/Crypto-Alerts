@@ -1,0 +1,263 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght1F40000;\f1\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght1DB0000;\f2\fnil\fcharset0 HelveticaNeue;
+\f3\froman\fcharset0 Times-Roman;\f4\fnil\fcharset0 AppleColorEmoji;\f5\froman\fcharset0 Times-Bold;
+\f6\fmodern\fcharset0 Courier;\f7\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red16\green39\blue45;\red251\green251\blue247;\red0\green0\blue0;
+\red109\green109\blue109;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c7451\c20392\c23137;\cssrgb\c98824\c98824\c97647;\cssrgb\c0\c0\c0;
+\cssrgb\c50196\c50196\c50196;\cssrgb\c0\c0\c93333;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa120\partightenfactor0
+
+\f0\fs27 \AppleTypeServices\AppleTypeServicesF65539 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Summary of Fixes
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa120\partightenfactor0
+\ls1\ilvl0
+\f0\fs32 \AppleTypeServices\AppleTypeServicesF65539 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Get and use a free API key
+\f2 \AppleTypeServices \'a0for stable limits\cb1 \
+\ls1\ilvl0
+\f0 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Run checker less often
+\f2 \AppleTypeServices \'a0(every 15+ minutes)\cb1 \
+\ls1\ilvl0
+\f0 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Batch requests
+\f2 \AppleTypeServices \'a0and add small delays if needed\cb1 \
+\ls1\ilvl0
+\f0 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Limit coins/alerts
+\f2 \AppleTypeServices \'a0to avoid bursts\cb1 \
+\ls1\ilvl0
+\f0 \AppleTypeServices\AppleTypeServicesF65539 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Monitor logs
+\f2 \AppleTypeServices \'a0for 429 errors and adjust as needed\cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\fs24 \cf0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56615 
+\f5\b  1. Activate Your Environment\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 cd /Users/sunny/crypto-alert\
+source .venv/bin/activate\
+export $(grep -v '^#' .env | xargs)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Purpose:
+\f3\b0  Sets up Python, Flask, and email credentials.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u9888 \u65039 
+\f5\b  2. (Optional) Fix urllib3 Warning (if needed)\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 pip install 'urllib3==1.26.20'\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Purpose:
+\f3\b0  Fixes OpenSSL warnings on macOS with Python 3.9.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56960 
+\f5\b  3. Run the Flask Web App\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 export FLASK_APP=app.py\
+export FLASK_ENV=development\
+flask run\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Demo:
+\f3\b0  Go to {\field{\*\fldinst{HYPERLINK "http://127.0.0.1:5000/"}}{\fldrslt \cf6 \ul \ulc6 http://127.0.0.1:5000}}, fill the form (email, coin, small thresholds like 0.05), click 
+\f5\b Save Alert
+\f3\b0 .\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56513 
+\f5\b  4. Confirm Alert is Saved\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 cat user_data.json\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Demo:
+\f3\b0  Show the saved alert (email, coin, thresholds, etc.).\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56556 
+\f5\b  5. Run Alert Checker\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 python3 main.py\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Demo:
+\f3\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+If triggered 
+\f7 \uc0\u8594 
+\f3  Email sent + 
+\f6\fs26 [INFO] Notified ...
+\f3\fs24 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+If not 
+\f7 \uc0\u8594 
+\f3  
+\f6\fs26 [INFO] No alerts triggered this run.
+\f3\fs24 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4 \cf0 \uc0\u55357 \u56556 
+\f3  
+\f5\b Show:
+\f3\b0  Your email inbox and updated 
+\f6\fs26 user_data.json
+\f3\fs24  with new 
+\f6\fs26 lastnotifiedprice
+\f3\fs24 .\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55358 \u56830 
+\f5\b  6. Show Logging\
+\pard\pardeftab720\partightenfactor0
+
+\f6\b0\fs26 \cf0 python3 main.py >> alerts.log 2>&1\
+tail -n 50 alerts.log\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Demo:
+\f3\b0  Show logs for each checker run.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u9881 \u65039 
+\f5\b  7. Show Automation via macOS Scheduler\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\b0\fs24 \cf0 \uc0\u55357 \u56516 
+\f3  
+\f5\b Show the runner script:
+\f3\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f6\fs26 \cf0 cat run_checker.sh\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u55357 \u56514 
+\f3  
+\f5\b Reload the LaunchAgent:
+\f3\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f6\fs26 \cf0 launchctl unload ~/Library/LaunchAgents/com.crypto.alert.checker.plist\
+launchctl load ~/Library/LaunchAgents/com.crypto.alert.checker.plist\
+launchctl start com.crypto.alert.checker\
+sleep 5\
+tail -n 50 /Users/sunny/crypto-alert/alerts.log\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\fs24 \cf0 \uc0\u9989 
+\f3  
+\f5\b Demo:
+\f3\b0  Show the checker runs 
+\f5\b automatically
+\f3\b0  and logs output.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56524 
+\f5\b  8. Recap Key Features (Great for Presentation)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0
+\f3\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f4 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56580 
+\f3  
+\f5\b Live coin list
+\f3\b0  from CoinGecko API\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f4 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56510 
+\f3  
+\f5\b Alerts saved
+\f3\b0  in 
+\f6\fs26 user_data.json
+\f3\fs24 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f4 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56551 
+\f3  
+\f5\b Email notifications
+\f3\b0  when thresholds are hit\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f4 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56658 
+\f3  
+\f5\b Scheduler runs checker every 15 minutes
+\f3\b0 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f4 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56592 
+\f3  
+\f5\b .env file
+\f3\b0  keeps credentials secure\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f4\fs36 \cf0 \uc0\u55357 \u56481 
+\f5\b  Demo Tip:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 To 
+\f5\b force an alert
+\f3\b0 , set a very small threshold like 
+\f6\fs26 0.01
+\f3\fs24 , then re-run the checker.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Let me know if you want this turned into a 
+\f5\b printable script
+\f3\b0 , 
+\f5\b slides
+\f3\b0 , or 
+\f5\b video voiceover script
+\f3\b0 .\
+}

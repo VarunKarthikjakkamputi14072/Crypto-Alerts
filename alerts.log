@@ -1,0 +1,18 @@
+[INFO] No alerts triggered this run.
+[INFO] No alerts triggered this run.
+[INFO] No alerts triggered this run.
+[INFO] Notified vksunny777@gmail.com for bitcoin (down).
+[INFO] Notified vksunny777@gmail.com for ethereum (down).
+[INFO] Alerts updated and saved.
+[INFO] Notified vksunny777@gmail.com for bitcoin (up).
+[INFO] Notified vksunny777@gmail.com for ethereum (up).
+[INFO] Notified jakkamputivarunkarthik@gmail.com for bitcoin (up).
+[INFO] Alerts updated and saved.
+[WARN] Failed to fetch price for uniswap: float() argument must be a string or a number, not 'NoneType'
+[INFO] Notified jakkamputivarunkarthik@gmail.com for ethereum (down).
+[WARN] Failed to fetch price for uniswap: float() argument must be a string or a number, not 'NoneType'
+[INFO] Notified jakkamputivarunkarthik@gmail.com for bitcoin (down).
+[INFO] Alerts updated and saved.
+[INFO] Notified jakkamputivarunkarthik@gmail.com for ETH (up).
+[INFO] Notified jakkamputivarunkarthik@gmail.com for BTC (up).
+[INFO] Alerts updated and saved.
