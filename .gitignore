@@ -1,0 +1,12 @@
+.env
+alerts.db
+alerts.log
+errors.log
+user_data.json
+user_data.json.py
+.venv/
+venv/
+__pycache__/
+.DS_Store
+*.rtf
+
